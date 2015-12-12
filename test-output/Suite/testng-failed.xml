@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.testcases.TestCasesListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.testcases.LoginTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="checkBlankUserName" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.testcases.LoginTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
